@@ -39,9 +39,9 @@ void main() {
           minHeight: 100.vh,
           padding: .zero,
           margin: .zero,
-          backgroundColor: bgBase,
           color: textPrimary,
           fontFamily: const .list([FontFamily('Inter'), FontFamilies.sansSerif]),
+          backgroundColor: bgBase,
         ),
         css('h1').styles(
           margin: .unset,

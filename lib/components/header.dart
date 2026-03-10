@@ -30,20 +30,20 @@ class Header extends StatelessComponent {
     css('header', [
       css('&').styles(
         display: .flex,
-        padding: .symmetric(horizontal: 2.rem, vertical: 1.5.rem),
-        justifyContent: .center,
         position: .sticky(top: 0.px),
         zIndex: const ZIndex(50),
+        padding: .symmetric(horizontal: 2.rem, vertical: 1.5.rem),
+        justifyContent: .center,
       ),
       css('nav', [
         css('&').styles(
           display: .flex,
           height: 3.5.rem,
+          border: Border.all(color: const Color('#ffffff15'), width: 1.px, style: BorderStyle.solid),
           radius: BorderRadius.circular(32.px),
           overflow: .clip,
           justifyContent: .spaceBetween,
           backgroundColor: bgGlass,
-          border: Border.all(color: const Color('#ffffff15'), width: 1.px, style: BorderStyle.solid),
         ),
         css('a', [
           css('&').styles(

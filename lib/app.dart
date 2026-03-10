@@ -31,12 +31,12 @@ class App extends StatelessComponent {
   @css
   static List<StyleRule> get styles => [
     css('html, body').styles(
-      margin: .zero,
+      minHeight: 100.vh,
       padding: .zero,
-      backgroundColor: bgBase,
+      margin: .zero,
       color: textPrimary,
       fontFamily: const FontFamily.list([FontFamily('Inter'), FontFamily('system-ui'), FontFamily('sans-serif')]),
-      minHeight: 100.vh,
+      backgroundColor: bgBase,
     ),
     css('.main', [
       css('&').styles(
@@ -47,13 +47,13 @@ class App extends StatelessComponent {
       ),
       css('section').styles(
         display: .flex,
-        flexDirection: .column,
-        alignItems: .center,
-        flex: Flex(grow: 1),
         width: 100.percent,
         maxWidth: 1200.px,
         padding: .all(2.rem),
         boxSizing: .borderBox,
+        flexDirection: .column,
+        alignItems: .center,
+        flex: Flex(grow: 1),
       ),
     ]),
   ];

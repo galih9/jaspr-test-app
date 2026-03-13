@@ -60,12 +60,7 @@ paginate: true
 
 ## 6. Tailwind dengan Jaspr 🎨
 
-- **Kombinasi Sempurna:** Jaspr merender elemen menjadi DOM HTML biasa, sehingga kita bisa dengan bebas menyematkan **Tailwind CSS**.
+- **Perfect Combination** Jaspr merender elemen menjadi DOM HTML biasa, sehingga kita bisa dengan bebas menyematkan **Tailwind CSS**.
 - **Utility Classes di Dart:** Anda dapat menggunakan kelas-kelas Tailwind langsung pada komponen Jaspr (dengan menggunakan properti `classes` atau `classes: 'bg-blue-500 text-white'`).
 - **Development Cepat:** Daripada menulis file `.css` terpisah atau mendefinisikan *styling* di Dart, Anda mendapatkan pengalaman *styling* instan dan responsif ala Tailwind.
 - **Workflow:** Sangat mudah diintegrasikan karena bisa dikonfigurasi langsung dengan PostCSS layaknya proyek web biasa.
-
----
-
-# Terima Kasih! 🎉
-## Apakah ada pertanyaan?
